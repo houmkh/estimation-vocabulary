@@ -1,7 +1,6 @@
 package algorithm
 
-// TODO 应该遍历所有阶梯 在用户点击结束的时候才调用
-// @Title forecastVocabulary
+// ForecastVocabulary
 // @Description
 // @Param curLadder
 // @Return int64
@@ -35,7 +34,7 @@ func ForecastVocabulary(userinfo *UserInfo) {
 	userinfo.Score = result
 }
 
-// @Title ladderHandler
+// LadderHandler
 // @Description   每次提交都要调用，根据单词的认识情况判断是否切换阶层
 // @Param curLadder 当前阶层信息
 // @Param vocabulary 当前单词信息
