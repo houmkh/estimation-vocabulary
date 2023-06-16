@@ -244,38 +244,6 @@ func UpdateLevel(c *gin.Context) {
 
 	user := userTestMap.(*_internal.UserTestStruct)
 	fmt.Println(user, "*************")
-	//for i := 0; i < 6; i++ {
-	//	switch i {
-	//	case 0:
-	//		fmt.Println(user.LadderInfo["A1"], "*************")
-	//	case 1:
-	//		fmt.Println(user.LadderInfo["A2"], "*************")
-	//	case 2:
-	//		fmt.Println(user.LadderInfo["B1"], "*************")
-	//	case 3:
-	//		fmt.Println(user.LadderInfo["B2"], "*************")
-	//	case 4:
-	//		fmt.Println(user.LadderInfo["C1"], "*************")
-	//	case 5:
-	//		fmt.Println(user.LadderInfo["C2"], "*************")
-	//	}
-	//}
-	//fmt.Println("*************")
-
-	//TODO 更新userTestStruct的LadderInfo 信息(算法里面实现了这个逻辑，这段去掉)
-	//level := user.Level
-	//
-	////初始化当前等级的LaderInfo
-	//if _, ok := user.LadderInfo[level]; !ok {
-	//	user.LadderInfo[level] = &_alg.LadderInfo{
-	//		CurNum:   0,
-	//		KnownNum: 0,
-	//	}
-	//}
-	//user.LadderInfo[level].CurNum++
-	//if wordReq.Known {
-	//	user.LadderInfo[level].KnownNum++
-	//}
 
 	//TODO 更新userTestStruct的VocabularyInfo
 	//wordId 将string转int64
